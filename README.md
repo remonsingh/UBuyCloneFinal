@@ -1,8 +1,8 @@
 Our project is to clone a Ubuy website. Ubuy is a Kuwait prepared product delivery company that delivers throughout the world.
 Team members=>
+Remon Singh
 Pratham Sharma
 Priyanshi Tiwari
-Remon Singh
 Aniket Darekar
 
 
