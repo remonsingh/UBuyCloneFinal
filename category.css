@@ -1,0 +1,409 @@
+.navbar {
+    /*background: #f7f7f7;*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #151515;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.navbar {
+    background: #fff;
+    width: 100%;
+    height: 4.5%;
+    border-bottom: 1px solid rgb(207, 204, 204);
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.ex {
+    align-items: center;
+    margin-bottom: 0.8%;
+}
+
+#follow {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40%;
+    align-items: center;
+}
+
+#facebook {
+    color: #4979D9;
+}
+
+#twitter {
+    color: #2AA3EF;
+}
+
+#instagram {
+    color: #5C6CFE;
+}
+
+#youtube {
+    color: #DF1A26;
+}
+
+.icon {
+    margin-left: 2%;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+#account {
+    margin-left: 3%;
+}
+
+#india {
+    margin-left: 3%;
+    display: inline-block;
+    margin-bottom: 0.5%;
+}
+
+.navbar .nav li:hover {
+    background: transparent;
+    color: black;
+}
+
+.sub-menu {
+    display: none;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.sub-menu ul {
+    list-style-type: none;
+}
+
+.navbar .nav li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: #fff;
+    margin-top: 6px;
+    margin-left: 0px;
+}
+
+.navbar .nav li:hover .sub-menu ul {
+    display: block;
+    margin: 0px;
+}
+
+.navbar .nav li:hover .sub-menu ul li {
+    width: 220px;
+    padding: 4px;
+    padding-left: -4px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    border-bottom: 1px solid rgb(207, 204, 204);
+}
+
+.navbar .nav li:hover .sub-menu ul li:hover {
+    background: #ffc107;
+}
+
+
+/* #welcome {
+        border-bottom: 1px solid rgb(207, 204, 204);
+        
+       } */
+
+#cart {
+    margin-left: 3%;
+}
+
+sup {
+    border-radius: 60%;
+    background: black;
+    color: white;
+    padding: 0 4px;
+    position: relative;
+    bottom: 10px;
+    left: -8px;
+}
+
+.fa-chevron-right {
+    float: right;
+    color: rgb(133, 131, 131);
+    font-weight: 100;
+}
+
+.sub-menu1 {
+    display: none;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding-left: 0px;
+}
+
+.hover-me:hover .sub-menu1 {
+    position: absolute;
+    display: block;
+    margin-top: -30px;
+    margin-left: 225px;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+    font-size: 14px;
+}
+
+#account-text {
+    vertical-align: super;
+}
+
+.INDIA {
+    vertical-align: super;
+    display: inline-block;
+}
+
+#explore img {
+    position: relative;
+    top: 7px;
+}
+
+@media(max-width:800px) {
+    .navbar {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 20%; */
+    }
+    .ex {
+        width: 10px;
+        margin-bottom: 10px;
+    }
+    #explore img {
+        display: contents;
+    }
+    #follow {
+        visibility: hidden;
+    }
+    #account>img {
+        margin: 0px;
+        display: inline-block;
+    }
+    #account-text {
+        /* vertical-align: super; */
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .icon {
+        position: relative;
+        right: 8%;
+    }
+    #bharat {
+        margin-bottom: 3px;
+    }
+    .INDIA {
+        margin-top: 0px;
+    }
+    #user_account {
+        margin-top: -2px;
+    }
+    sup {
+        position: relative;
+        left: 60%;
+        bottom: 37px;
+    }
+    .drop_account {
+        position: relative;
+        right: 1%;
+    }
+    .icon_shift {
+        margin-top: 2%;
+    }
+}
+
+@media(max-width:480px) {
+    .icon {
+        visibility: hidden;
+    }
+    #account-text {
+        /* vertical-align: super; */
+        visibility: hidden;
+    }
+    .INDIA {
+        margin-top: 0px;
+        visibility: hidden;
+    }
+    #user_account {
+        margin-left: -250%;
+        margin-top: 3px;
+    }
+    #bharat {
+        margin-left: -500%;
+        margin-top: 5px;
+    }
+    #cart_icon {
+        margin-left: -600%;
+        margin-bottom: 3px;
+    }
+    sup {
+        position: relative;
+        left: -24%;
+        bottom: 18px;
+    }
+    .drop_account {
+        position: relative;
+        right: 0px;
+    }
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+}
+ .main{
+    
+     width:250px;
+     height:100px;
+     display: flex;
+     background-color: white;
+     margin:20px;
+     border-radius: 5px;
+    
+ }
+ .main:hover{
+     border:2px solid gold;
+ }
+ #parent{
+     display: flex;
+     margin-top: -15px;
+     font-size: 13px;
+ }
+#d{
+    margin-top:5px;
+}
+#sec{
+    position: relative;
+    
+}
+ figure{
+   
+     align-self: end;
+     width: 30%;
+     margin: 20%;
+     margin-left: 0;
+     margin-bottom: 0;
+ }
+ #head{
+     display: flex;
+     justify-content: center;
+     margin: 7% 4% 4% 4%;
+ }
+ #head span{
+     margin:20px;
+     align-self: center;
+     font-size: 30px;
+ }
+ #search>form>input{
+     
+    padding: 10px;
+    width: 60%;
+    border:none;
+    border-bottom: 1px solid black;
+    background-position:100% ; 
+    margin-left: -50px;
+
+   
+ }
+ #search>form>input:focus{
+    outline: none;
+ }
+ #search>form>button{
+    background-image: url("data:image/jpeg;base64,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");
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 4.1%;
+    height: 25px;
+    margin: -30px;
+ }
+ #search{
+  text-align: center;
+  background-color: white;
+  width:50%;
+  padding-top: 2%;
+  margin: auto;
+  border-radius: 30px;
+  border: 0.5px solid #cbcbcb;
+  font-size: 13px;
+ }
+ #search:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ #country{
+     margin-left: -20px;
+     display: flex;
+     justify-content: center; 
+ }
+ #country>*{
+     margin: 20px ;
+ }
+ #country>img{
+    width:30px;
+ }
+#product{
+    margin-top: 10%;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 20px;
+    overflow-x:hidden;
+    font-size: 13px;
+   
+}
+#desc{
+    margin-left: 20px;
+    width:80%;
+    height: 20px;
+    overflow: hidden;
+}
+#product>div>figure>img{
+    width: auto;
+    height: 100%;
+}
+#product>div>figure{
+    height:150px;
+    width: 100%;
+    text-align: center;
+}
+#product>*{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#product>div>button{
+
+background-image: url("https://e1.pngegg.com/pngimages/968/379/png-clipart-black-n-white-white-heart.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: 20px;
+border: none;
+margin-left:85%;
+margin-bottom: -100%;
+cursor: pointer;
+padding: 10px;
+}
+#product>div>button:hover{
+ background-image: url("https://media.istockphoto.com/vectors/social-love-heart-icon-isolated-on-white-background-vector-vector-id949849640?k=20&m=949849640&s=170667a&w=0&h=udCunpF_5uAceYrs8Lkk6qjmuXfbGK2LNw4myEbwcWY=");
+}

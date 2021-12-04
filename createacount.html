@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>Best Online Shopping Store for Electronics, Fashion, Home Improvement &amp; More in India</title>
+    <link rel="icon" href="https://d3ulwu8fab47va.cloudfront.net/media/favicon/default/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="createaccount.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="left"><img src="https://www.ubuy.co.in/skin/frontend/default/ubuycom-v1/images/create_account_banner.jpg"/></div>
+            <div class="vertical"></div>
+            <div id="right">
+                <h2>Welcome to Ubuy</h2>
+                <form id="myForm"  onsubmit="return signup(event)" >
+                    <input type="text"  id="name" placeholder="Full Name *"  autocomplete="off" required/><br>
+                    <span id="username" style="color:red; font-size:10px"></span><br>
+                    <span class="no1" >+91</span><span><input type="tel" id="rmobile" name="mobile" minlength="10" maxlength="10" pattern="^[6-9]\d{9}$" data-msg-pattern="Please enter valid value."  placeholder="Mobile Number *" autocomplete="off"></span><br>
+                    <span id="mobile" style="color:red; font-size:10px"></span><br>
+                    <input type="email"  id="email" placeholder="Email Address *"  autocomplete="off" required/><br>
+                    <span id="mail" style="color:red; font-size:10px "></span><br>
+                   <div class="inner"> <div><input type="password" class="password" id="pass" placeholder="password *" autocomplete="off" required/><br>
+                    <span id="pass1" style="color:red; font-size:10px"></span><br>
+                </div>
+                <div><input type="password" id="pass1" autocomplete="off" class="password" placeholder="Confirm Password *" required/><br>
+                    <span id="pass2" style="color:red; font-size:10px"></span><br>
+                </div>
+            </div><br>
+                   <p> <input type="checkbox" id="check" ><span style="color:grey"> Join our Mailing List-Get updates on Rollbacks,special pricing, hot new items,<br>&nbsp; &nbsp; &nbsp; gift ideas and more.</p>
+                   <p> <input type="checkbox" id="check" ><span style="color:grey">I have read & agreed <span style="color:#F57F17">Terms & Conditions</span></p>
+                   <span id="check2" style="color:red; font-size:10px"></span><br>
+                  
+                   <center><input type="submit" id="sub" value="Create Account"/>
+                   <h5>Already have an account?<span><a href="login.html"  style="color:#F57F17">Login</a></span></h5></center>
+
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="createaccount.js">
+    
+        </script>
+</html>

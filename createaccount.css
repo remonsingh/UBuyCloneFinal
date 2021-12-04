@@ -1,0 +1,119 @@
+body{
+    background-color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width:100%;
+    height:100vh;
+    
+    display:flex;
+}
+#left #right{
+    width:50%;
+    
+    margin:10px;
+    height: 90vh;
+}
+img{
+    height:80vh;
+    width:70%;
+    margin-left:104px;
+}
+#name{
+   
+    width:70%;
+    padding: 20px 15px 10px;
+font-size: 0.8rem;
+position: relative;
+height: 45px;
+top: 0;
+border: 1px solid #eeeeee;
+background: #FCFCFC;
+}
+#email{
+    
+    width:70%;
+    padding: 20px 15px 10px;
+font-size: 0.8rem;
+position: relative;
+height: 45px;
+
+border: 1px solid #eeeeee;
+background: #FCFCFC;
+margin-top:2px;
+
+}
+.no1{
+    border: 1px solid #eee !important;
+    height:30px;
+    padding: 19px 15px 10px;
+    font-size: 0.8rem;
+    margin-top:5px;
+    position: relative;
+    box-sizing: border-box;
+    background: #FCFCFC;
+   
+}
+
+#rmobile{
+    border: 1px solid #eeeeee;
+background: #FCFCFC;
+width:60%;
+padding: 20px 15px 10px;
+font-size: 0.8rem;
+position: relative;
+height: 45px;
+
+margin-top:5px;
+}
+
+input[type="checkbox"]{
+   opacity:0.2;
+
+}
+input[type="checkbox"]:after{
+   border: 2px solid black;
+   background-color:red;
+}
+
+#img1{
+width:45%;
+height:70px;
+margin-left: 10px;
+
+}
+#sub{
+background-color: #FFC107;
+color:white;
+width:60%;
+margin-top:10px;
+height:35px;
+border-radius: 5px;
+border:1px solid white
+}
+.vertical{
+height:90vh;
+position: absolute;
+left:45%;
+border:1px solid #E0E0E0;
+}
+.inner{
+display: flex;
+width:75%;
+}
+
+.inner>div{
+width:45%;
+font-size: 0.8rem;
+position: relative;
+height: 45px;
+border:1px solid #eeeeee;
+background: #FCFCFC;
+margin-top:2px;
+}  
+.password{
+border:1px solid #eeeeee;
+margin-left: 5px;
+height: 45px;
+}    
+
